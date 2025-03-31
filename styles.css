@@ -187,7 +187,6 @@ header nav ul li a:hover {
 }
 
 /* Member Section */
-
 .member {
     background-color: #e9f6f9;
     padding: 60px 0;
@@ -352,4 +351,60 @@ footer img {
     vertical-align: middle;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+/* Media Queries for Small Devices */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .service-list, .pricing-table, .member-table {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service, .pricing-plan, .member-plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .services h2, .pricing h2, .member h2, .about h2, .contact h2 {
+        font-size: 28px;
+    }
+
+    .service h3, .pricing-plan h3, .member-plan h3 {
+        font-size: 22px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    footer img {
+        width: 10%;
+    }
 }
