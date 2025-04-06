@@ -235,18 +235,18 @@ header nav ul li a:hover {
 
 /* Positioning for the video */
 .video {
-    position: absolute;  /* Positioned relative to the member-plan container */
-    top: 10px;           /* Adjust top distance */
-    right: 10px;         /* Adjust right distance */
-    width: auto;         /* Let width adjust */
-    height: auto;        /* Let height adjust */
-    max-width: 320px;    /* Limit max-width */
-    max-height: 240px;   /* Limit max-height */
+    position: absolute;  
+    top: 10px;           
+    right: 10px;         
+    width: auto;         
+    height: auto;        
+    max-width: 320px;    
+    max-height: 240px;   
 }
 
 video {
-    width: 100%;         /* Make sure video takes up available width */
-    height: auto;        /* Maintain aspect ratio */
+    width: 100%;         
+    height: auto;        
 }
 
 /* Sign Up section */
