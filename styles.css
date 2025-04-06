@@ -232,19 +232,6 @@ header nav ul li a:hover {
     color: white;
 }
 
-video {
-    float: right;
-    margin-left: 20px;
-}
-
-video::-webkit-media-controls {
-    display: none !important;
-}
-
-video::-webkit-media-controls-panel {
-    display: none !important;
-}
-
 /* Sign Up section */
 button {
     background-image: none;
@@ -364,6 +351,10 @@ footer img {
     vertical-align: middle;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+.video {
+  float: right;
 }
 
 /* Media Queries for Small Devices */
