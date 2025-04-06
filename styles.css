@@ -211,6 +211,10 @@ header nav ul li a:hover {
     width: 100%;
     text-align: left;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .member-plan h3 {
@@ -230,6 +234,17 @@ header nav ul li a:hover {
 .member-plan p {
     font-size: 16px;
     color: white;
+}
+
+/* Video Container */
+.video-container {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Sign Up section */
@@ -353,10 +368,6 @@ footer img {
     overflow: clip;
 }
 
-.video {
-  float: right;
-}
-
 /* Media Queries for Small Devices */
 @media (max-width: 768px) {
     .container {
@@ -381,6 +392,16 @@ footer img {
     .service, .pricing-plan, .member-plan {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .member-plan {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container {
+        margin-left: 0;
+        margin-top: 20px;
     }
 
     .hero h2 {
