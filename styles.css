@@ -354,7 +354,9 @@ footer img {
 }
 
 .video {
-    float: right;
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
 }
 
 /* Media Queries for Small Devices */
