@@ -429,4 +429,9 @@ footer img {
     footer img {
         width: 10%;
     }
+
+    video {
+        height: auto;
+        width: auto;
+    }
 }
