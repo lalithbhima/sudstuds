@@ -247,6 +247,14 @@ video {
     height: auto;
 }
 
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
 /* Sign Up section */
 button {
     background-image: none;
