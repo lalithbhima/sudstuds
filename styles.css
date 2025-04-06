@@ -239,8 +239,8 @@ header nav ul li a:hover {
 }
 
 video {
-    max-width: 100%;
-    height: auto;
+    float: right;
+    margin-left: 20px;
 }
 
 video::-webkit-media-controls {
