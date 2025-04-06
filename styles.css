@@ -353,6 +353,10 @@ footer img {
     overflow: clip;
 }
 
+.video {
+    float: right;
+}
+
 /* Media Queries for Small Devices */
 @media (max-width: 768px) {
     .container {
