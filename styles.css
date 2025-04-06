@@ -232,12 +232,6 @@ header nav ul li a:hover {
     color: white;
 }
 
-/* Video Container */
-.video-container {
-    flex-shrink: 0;
-    margin-left: 20px;
-}
-
 video {
     float: right;
     margin-left: 20px;
