@@ -244,11 +244,6 @@ header nav ul li a:hover {
     max-height: 180px;   /* Limit max-height */
 }
 
-video {
-    width: 100%;         /* Make sure video takes up available width */
-    height: auto;        /* Maintain aspect ratio */
-}
-
 /* Sign Up section */
 button {
     background-image: none;
